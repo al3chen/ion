@@ -1,4 +1,4 @@
-al3chen, create script to double-click to run on windows.
+al3chen, double-click to run on windows.
 
 <div align=left><a href="https://github.com/pion/ion/wiki">
     <img src="docs/imgs/ion.png" width = 15% align = "left">

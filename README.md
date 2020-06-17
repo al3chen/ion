@@ -3,7 +3,7 @@
 <div align=left><a href="https://github.com/pion/ion/wiki">
     <img src="docs/imgs/ion.png" width = 15% align = "left">
 </a>
-
+al3chen, create script to double-check to run on windows.
 
 
 #### *ION is a distributed real-time communication system, the goal is to chat anydevice, anytime, anywhere!*

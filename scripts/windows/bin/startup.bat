@@ -6,7 +6,7 @@ start "etcd log" "cmd /k .\etcd-v3.4.9-windows-amd64\etcd.exe --listen-client-ur
 start "nats log" "cmd /k .\nats-server-v2.1.7-windows-amd64\nats-server.exe"
 start "islb log" "cmd /k .\islb.exe -c islb.toml"
 start "biz log" "cmd /k .\biz.exe -c biz.toml"
-rem start "avp log" "cmd /k .\avp.exe -c avp.toml"
+start "avp log" "cmd /k .\avp.exe -c avp.toml"
 start "sfu log" "cmd /k .\sfu.exe -c sfu.toml"
-echo "do not close those windows"
-pause
+rem echo "do not close those windows"
+rem pause

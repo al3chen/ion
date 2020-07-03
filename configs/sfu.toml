@@ -3,7 +3,7 @@ pprof = ":6062"
 # data center id
 dc = "dc1"
 # internet ip
-addr = "127.0.0.1"
+addr = "192.168.1.97"
 
 [router]
 # pass bandwidth feeback to pub
@@ -61,7 +61,7 @@ level = "info"
 # level = "debug"
 [etcd]
 # ["ip:port", "ip:port"]
-addrs = ["127.0.0.1:2389"]
+addrs = ["192.168.1.97:2389"]
 
 [nats]
-url = "nats://127.0.0.1:4222"
+url = "nats://192.168.1.97:4222"

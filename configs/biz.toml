@@ -2,7 +2,7 @@
 pprof = ":6060"
 
 # internet ip
-addr = "127.0.0.1"
+addr = "192.168.1.97"
 
 # data center id
 dc = "dc1"
@@ -13,16 +13,16 @@ level = "info"
 
 [etcd]
 # ["ip:port", "ip:port"]
-addrs = ["127.0.0.1:2389"]
+addrs = ["192.168.1.97:2389"]
 
 [signal]
 #listen ip port
-host = "0.0.0.0"
+host = "192.168.1.97"
 port = "8443"
-# cert= "configs/certs/cert.pem"
-# key= "configs/certs/key.pem"
+cert= "configs/certs/cert.pem"
+key= "configs/certs/key.pem"
 allow_disconnected = false
 
 [nats]
-url = "nats://127.0.0.1:4222"
+url = "nats://192.168.1.97:4222"
 
